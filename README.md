@@ -25,3 +25,10 @@ Static Files
 release: python manage.py migrate
 web: gunicorn.hotvidz.wsgi
 ```
+
+## Create a Runtime
+1. Create runtime.txt
+2. Include the following:
+```
+python-3.9.0
+```
