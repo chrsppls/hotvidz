@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-form .local_settings import SECRET_KEY as shhhhh
+# form .local_settings import SECRET_KEY as shhhhh
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = shhhhh
+SECRET_KEY = 'vkKJHG(67558*&6ghGFGUIjfnI*(#^10-df90df)'
 if os.getenv('SECRET_KEY'):
     SECRET_KEY = os.getenv('SECRET_KEY')
 
