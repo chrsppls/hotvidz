@@ -27,7 +27,7 @@ SECRET_KEY = 'jup_z=wr)ix7y9x(1h3&94-tz1+0bu=)a663qk^fk4ji+9p-gg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['agile-earth-50687.herokuapp.com', 'custom-domain.com', 'www.custom-domain.com']
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
