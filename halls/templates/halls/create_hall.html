@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Create New Hall of Fame</h1>
+<form class="" action="{% url 'create_hall' %}" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-primary" name="" value="Create Hall">Create</button>
+</form>
+{% endblock %}
