@@ -16,7 +16,7 @@ from .models import Hall, Video
 from .forms import VideoForm, SearchForm
 # Create your views here.
 
-YOUTUBE_API_KEY = 'AIzaSyCi1ODfgz82RsuTjF8jug4rVw3EfOjNTHY'
+from .local_settings import YOUTUBE_API_KEY
 
 def home(request):
     return render(request, 'halls/home.html')

@@ -32,3 +32,9 @@ web: gunicorn.hotvidz.wsgi
 ```
 python-3.9.0
 ```
+
+## Load Seed Data from databases
+1. heroku run python manage.py loaddata hotvidz.json
+
+## Heroku open from CLI
+1. heroku open
